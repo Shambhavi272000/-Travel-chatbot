@@ -1,0 +1,39 @@
+{"intents": [
+    {
+    "tag": "greetings",
+    "patterns": ["hello","hey","hi","what's up?","Are you there?","Hey there","Greetings","morning","good morning","good evening","good afternoon","good day","How's it going?"],
+    "responses": ["hello","hey","how are you doing today?","What can I do for you today?"]
+    },
+
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye","see you","see you again","goodbye","good night","I am leaving"],
+        "responses": ["Bye","Take care","see you","Goodbye","Nice talking to you","Keep coming back!","Sad to see you go","Hope I helped!"]
+    },
+
+    {
+        "tag": "name",
+        "patterns": ["who is this?","what's your name","Can I get your name","Who am I talking to","what should I call you"],
+        "responses": ["You can call me yourbot :)","I am yourbot.","Yourbot, here to help you."]
+    },
+
+    {
+        "tag": "hours",
+        "patterns": ["When can we talk","when are you available","what are your hours","hours of operation"],
+        "responses": ["24/7","anytime of the day!"]
+    },
+
+    {
+        "tag": "transportation",
+        "patterns": ["what vehicles are available here?","which transportation services are available","what should I travel in"],
+        "responses": ["you can take any of these services: Rickshaws, Buses, Cabs, local trains"]
+    },
+
+    {
+        "tag": "places",
+        "patterns": ["where should i go in this city?","which are the famous places","tell me the tourist places in this city"],
+        "responses": ["you must visit : Amer fort, Jantar Mantar, Albert Hall Museum, Birla Mandir, Hawa mehal"]
+    }
+
+]}
+
